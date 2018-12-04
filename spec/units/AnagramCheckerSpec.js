@@ -8,7 +8,7 @@ describe('AnagramChecker', () => {
       }).toThrow('Error: incorrect number of arguments, expecting 2');
     });
 
-    it('throws an error when first argument is not a string', () => {
+    it('throws an error when subject is not a string', () => {
       expect(() => {
         AnagramChecker.check(0, './public/a.txt');
       }).toThrow('Error: subject is not a string');
