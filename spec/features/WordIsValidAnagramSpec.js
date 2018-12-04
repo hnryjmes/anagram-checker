@@ -3,9 +3,9 @@ describe('Word is a valid anagram', () => {
 
   xit('Checks if a given word, known as the subject, is an anagram, given a file containing a list of words to check against', () => {
     const SUBJECT = 'silent';
-    const filePath = './public/anagrams-of-silent.txt';
-    const expectedOutput = require('fs').readFileSync(filePath).toString();
+    const FILE_PATH = './public/anagrams-of-silent.txt';
+    const EXPECTED_OUTPUT = require('fs').readFileSync(FILE_PATH).toString();
 
-    expect(AnagramChecker.check(SUBJECT, filePath)).toEqual(expectedOutput);
+    expect(AnagramChecker.check(SUBJECT, FILE_PATH)).toEqual(EXPECTED_OUTPUT);
   });
 });
