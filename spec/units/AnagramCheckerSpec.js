@@ -3,7 +3,9 @@ describe('AnagramChecker', () => {
 
   describe('.check', () => {
     it('returns an empty string when inputs are invalid', () => {
-      expect(AnagramChecker.check()).toEqual('');
+      expect(() => {
+        AnagramChecker.check(); 
+      }).toThrow('Error: incorrect number of arguments, expecting 2');
     });
   });
 });
