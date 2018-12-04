@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hnryjmes/anagram-checker/issues"
   },
-  "homepage": "https://github.com/hnryjmes/anagram-checker#readme"
+  "homepage": "https://github.com/hnryjmes/anagram-checker#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
 }
