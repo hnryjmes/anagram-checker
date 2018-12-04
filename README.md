@@ -4,15 +4,15 @@ Simple command-line application in Node.js to check if a word is an anagram give
 
 ## Design
 
-// TODO
+I used TDD and wrote tests first before production code. My approach was to write a static `.check` function, a pure function with no side effects, wrapped in a class object `AnagramChecker`. The `.check` function tests for a few edge cases, such as invalid arguments and bad inputs. I assumed that the subject word to check would be a string, and that the input file would be in .txt or .csv format. In future designs I could extend this app to handle a wider range of file formats.
 
 ## Usage
 
-// TODO
+To use the app, clone the repository, run `npm install` to install dependencies, then run `node` to start a Node.js REPL. 
 
 ## Tests
 
-// TODO
+To run tests, clone the repository, run `npm install` to install dependencies, then run `jasmine`.
 
 ## User Story
 
