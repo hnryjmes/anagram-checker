@@ -1,7 +1,7 @@
 {
   "name": "anagram-checker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple command-line application in Node.js to check if a word is an anagram given a file with a list of words.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
