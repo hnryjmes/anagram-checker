@@ -1,0 +1,19 @@
+{
+  "name": "anagram-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnryjmes/anagram-checker.git"
+  },
+  "author": "Henry Cooksley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hnryjmes/anagram-checker/issues"
+  },
+  "homepage": "https://github.com/hnryjmes/anagram-checker#readme"
+}
