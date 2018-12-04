@@ -1,4 +1,4 @@
-describe('Word is a valid anagram', () => {
+describe('Word has a valid anagram in given list', () => {
   const AnagramChecker = require('../../lib/AnagramChecker');
 
   it('Checks if a given word, known as the subject, is an anagram, given a file containing a list of words to check against', () => {
