@@ -18,6 +18,8 @@ To use the app, clone the repository, run `npm install` to install dependencies,
 
 To run tests, clone the repository, run `npm install` to install dependencies, then run `jasmine`.
 
+Acceptance criteria test for challenge is located in the `features` directory.
+
 ## User Story
 
 ```
