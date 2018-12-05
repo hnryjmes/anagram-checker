@@ -14,8 +14,6 @@ The anagram checker works by calculating the product of character codes, compari
 
 To use the app, clone the repository, run `npm install` to install dependencies, then run `node` to start a Node.js REPL. 
 
-// TODO
-
 ## Tests
 
 To run tests, clone the repository, run `npm install` to install dependencies, then run `jasmine`.
