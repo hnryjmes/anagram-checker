@@ -1,5 +1,5 @@
 describe('Word does not have a valid anagram in given list', () => {
-  const AnagramChecker = require('../../lib/AnagramChecker');
+  const AnagramChecker = require('../../built/AnagramChecker');
 
   it('Checks if a given word, known as the subject, is an anagram, given a file containing a list of words to check against', () => {
     const subject = 'silent';

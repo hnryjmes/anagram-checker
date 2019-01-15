@@ -1,5 +1,5 @@
 describe('Checks if subject is an anagram and returns matches', () => {
-  const AnagramChecker = require('../../lib/AnagramChecker');
+  const AnagramChecker = require('../../built/AnagramChecker');
   const fs = require('fs');
   let subject = 'silent';
 

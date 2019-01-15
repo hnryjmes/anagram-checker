@@ -1,5 +1,5 @@
 describe('Word is invalid in list', () => {
-  const AnagramChecker = require('../../lib/AnagramChecker');
+  const AnagramChecker = require('../../built/AnagramChecker');
   const subject = 'silent';
   const fs = require('fs');
 

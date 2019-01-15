@@ -1,13 +1,7 @@
 describe('AnagramChecker', () => {
-  const AnagramChecker = require('../../lib/AnagramChecker');
+  const AnagramChecker = require('../../built/AnagramChecker');
 
   describe('.check', () => {
-    it('throws an error when number of arguments is not 2', () => {
-      expect(() => {
-        AnagramChecker.check(); 
-      }).toThrow('Error: incorrect number of arguments, expecting 2');
-    });
-
     it('throws an error when subject is not a string', () => {
       expect(() => {
         AnagramChecker.check(0, './public/a.txt');
